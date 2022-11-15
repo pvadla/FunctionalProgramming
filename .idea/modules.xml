@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FunctionalProgramming.iml" filepath="$PROJECT_DIR$/.idea/FunctionalProgramming.iml" />
-      <module fileurl="file://$PROJECT_DIR$/functionalprogramming/functionalprogramming.iml" filepath="$PROJECT_DIR$/functionalprogramming/functionalprogramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fp/fp.iml" filepath="$PROJECT_DIR$/fp/fp.iml" />
     </modules>
   </component>
 </project>
