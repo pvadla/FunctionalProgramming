@@ -20,10 +20,22 @@ public class _Stream {
                 new Person("BOB", PREFER_NOT_TO_SAY)
         );
 
-        people.stream()
-                .map(person -> person.name)
-                .mapToInt(String::length)
-                .forEach(System.out::println);
+//        people.stream()
+//                .map(person -> person.name)
+//                .mapToInt(String::length)
+//                .forEach(System.out::println);
+
+        boolean containsOnlyFemales = people.stream()
+                .allMatch(person -> FEMALE.equals(person.gender));
+
+        boolean b = people.stream()
+                        .anyMatch(person -> FEMALE.equals(person.gender));
+
+        System.out.println(containsOnlyFemales);
+        System.out.println(b);
+
+
+
 
     }
 
