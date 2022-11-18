@@ -1,0 +1,13 @@
+Pure functional programming has a set of rules to follow
+=============================================
+- No State
+=============================================
+- Pure functions
+=============================================
+- No Side effects
+=============================================
+- Higher Order functions (used in combinator pattern)
+==============================================
+    * The function takes one or more functions as parameters
+    * The functions returns another function as result
+================================================
